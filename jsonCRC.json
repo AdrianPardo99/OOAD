@@ -1,0 +1,107 @@
+[
+  {
+    "name": "Conexion_de_DB",
+    "superclasses": "",
+    "subclasses": "",
+    "type": 1,
+    "responsibilities": [
+      "Visualizar",
+      "Actualizar",
+      "Eliminar",
+      "Agregar"
+    ],
+    "collaborators": [
+      "Sesiones",
+      "Mostrar_usuarios",
+      "Pago",
+      "Chat"
+    ]
+  },
+  {
+    "name": "Pago",
+    "superclasses": "",
+    "subclasses": "",
+    "type": 1,
+    "responsibilities": [
+      "Conectar con la API de Google",
+      "Mostrar mensaje de confirmación de pago",
+      "Mostrar mensaje de error al realizar pago",
+      "Procesar pago"
+    ],
+    "collaborators": [
+      "Chat",
+      "Conexion_de_BD"
+    ]
+  },
+  {
+    "name": "Usuario_Registrado",
+    "superclasses": "",
+    "subclasses": "",
+    "type": 1,
+    "responsibilities": [
+      "Ver información",
+      "Mantener foto",
+      "Ver recomendación",
+      "Eliminar cuenta",
+      "Modificar datos personales",
+      "Modificar información de pago",
+      "Denunciar a otro usuario",
+      "Explorar",
+      "Modificar intereses"
+    ],
+    "collaborators": [
+      "Conexion_de_BD",
+      "Chat",
+      "Sesiones"
+    ]
+  },
+  {
+    "name": "Chat",
+    "superclasses": "",
+    "subclasses": "",
+    "type": 1,
+    "responsibilities": [
+      "Bloquear usuario",
+      "Mandar foto por cobrar",
+      "Comprar foto",
+      "Enviar mensaje",
+      "Recibir mensaje",
+      "Generar notificaciones"
+    ],
+    "collaborators": [
+      "Conexion_de_BD",
+      "Usuario",
+      "Pago"
+    ]
+  },
+  {
+    "name": "Mostrar_Usuario",
+    "superclasses": "",
+    "subclasses": "",
+    "type": 1,
+    "responsibilities": [
+      "Validar que no sea el mismo usuario que esta activo",
+      "Validar que el usuario mostrado no haya tenido match antes",
+      "Validar intereses",
+      "Validar gustos"
+    ],
+    "collaborators": [
+      "Conexion_de_BD",
+      "Sesiones"
+    ]
+  },
+  {
+    "name": "Sesiones",
+    "superclasses": "",
+    "subclasses": "",
+    "type": 1,
+    "responsibilities": [
+      "Validar actividad o inactividad de la sesión",
+      "Cerrar sesión después de X tiempo de inactividad",
+      "Iniciar sesión"
+    ],
+    "collaborators": [
+      "Conexion_de_BD"
+    ]
+  }
+]
