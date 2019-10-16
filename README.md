@@ -10,6 +10,10 @@
 
 ---
 ***Class Responsibility Collaborator (CRC) Cards***
-> **JSON for the CRC cards** [Link about the cards](#)
-> **PDF about the CRC cards** [Link](#)
+> **JSON for the CRC cards** [Link about the cards](jsonCRC.json)
+
+> **PDF about the CRC cards** [Link](CRC_Maker1.pdf)
+
 > **API where the JSON transform in CRC cards in the import button** [Link](https://echeung.me/crcmaker/)
+
+---
