@@ -17,3 +17,8 @@
 > **API where the JSON transform in CRC cards in the import button** [Link](https://echeung.me/crcmaker/)
 
 ---
+***Version 2 about the documentation***
+
+> **Documentation second edition** [Link about the documentation](revision2.pdf)
+
+---
