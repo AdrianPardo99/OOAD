@@ -18,22 +18,6 @@
     ]
   },
   {
-    "name": "Pago",
-    "superclasses": "",
-    "subclasses": "",
-    "type": 1,
-    "responsibilities": [
-      "Conectar con la API de Google",
-      "Mostrar mensaje de confirmación de pago",
-      "Mostrar mensaje de error al realizar pago",
-      "Procesar pago"
-    ],
-    "collaborators": [
-      "Chat",
-      "Conexion_de_BD"
-    ]
-  },
-  {
     "name": "Usuario_Registrado",
     "superclasses": "",
     "subclasses": "",
