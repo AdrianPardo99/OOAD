@@ -22,3 +22,9 @@
 > **Documentation second edition** [Link about the documentation](revision2.pdf)
 
 ---
+***Final document about the documentation***
+> **Document** [Link](finalPdf.pdf)
+
+> **App** [Link app](sugarPlease.apk)
+
+---
