@@ -1,6 +1,7 @@
 ## Welcome to the documentation about "Sugar please!"
 
 <p align="center"><img src="sugarLogo.png"/></p>
+---
 
 ***Version 1 about the documentation***
 
