@@ -1,5 +1,5 @@
 ## Welcome to the documentation about "Sugar please!"
-
+![image](sugarLogo.png)
 ***Version 1 about the documentation***
 
 > **Documentation about the project** [Link about the documentation](https://drive.google.com/file/d/1xZDkKWlGduIqi5gD8gdFt3PRdaAwC39l/view?usp=sharing)
